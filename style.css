@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    color: white;
+}
+.hastag-header{
+    max-width:100%;
+    background-color: #075ED4;
+    font-family: cursive;
+    font-size: 2rem;
+    padding: 2rem;
+    background-image: url('/youtube hastag header/images/background.png');
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 56%;
+    box-sizing: border-box;
+}
+.hastag-header h2{
+    margin-top: 0;
+
+}
+.hastag-header img{
+    width: 3rem;
+    border-radius: 100%;
+    vertical-align:-43% ;
+    border: 4px solid white;
+}
+img+img{
+    margin-left: -20px;
+}
+.hastag-header img:hover{
+    transform: scale(1.2);
+}
